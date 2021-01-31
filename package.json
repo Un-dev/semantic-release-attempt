@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/Un-dev/semantic-release-attempt#readme",
   "devDependencies": {
-    "@semantic-release/github": "^7.2.0",
     "semantic-release": "^17.3.7",
     "semantic-release-gitmoji": "^1.3.4"
+  },
+  "dependencies": {
+    "@semantic-release/git": "^9.0.0"
   }
 }
