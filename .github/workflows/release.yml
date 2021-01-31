@@ -20,6 +20,8 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOK }}
         run: npx semantic-release
       - name: Push commit
         env:
