@@ -62,6 +62,8 @@ module.exports = {
                   ':bento:',
                   ':heavy_plus_sign:',
                   ':heavy_minus_sign:',
+                  ':sparkles:',
+                  ':boom:',
                 ]
               },
             },
